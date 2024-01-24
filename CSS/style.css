@@ -1,0 +1,82 @@
+/*comentarios*/
+/*sintaxis 
+selector{
+     propiedad: valor;
+    }*/
+/*<h1 calss="atributo-para-epecificar"
+.atributo-para-epecificar{
+     propiedad: valor;
+    } el punto es para class
+    se pueden tener mas de unba clase
+*/
+
+*{
+    font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+header {
+    background-image: url(/img/mas_que_flow-copia.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+ul{ 
+    font-size: 45%;
+    width: 50px;
+    padding: 0;
+   background-color: rgba(77, 97, 90, 0.39);
+}
+h1 {
+   color: rgba(138, 150, 141, 0.11);
+    text-align: center;
+}
+
+.link-producto{
+    text-align: center;
+}
+
+.imagen-logo {
+    width: 60px;
+}
+.imagen-producto { 
+    width: 100%;
+}
+.navegacion1 {
+    color: rgb(21, 110, 44);
+}
+/*inicio del main*/
+h4{
+    text-align: center;
+}
+
+.elemento-padre{
+    display: flex;
+   flex-direction: column;
+}
+.imagen-producto{
+    width: 13rem;
+}
+
+h2{
+    font-size: 13px;
+}
+/*inicio de la compra*/
+.compra-producto {
+    width: 100%;
+}
+.compra-productoo {
+    width: 100%;
+}
+/*fin de la compra*/
+
+@media only screen and (min-width: 500px) { 
+    .elemento-padre{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
